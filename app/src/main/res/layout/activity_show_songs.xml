@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="SHOW ALL SONGS WITH 5 STARS" android:id="@+id/btn5stars"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/title" android:textSize="20dp" android:textColor="#E39ff6"/>
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/year" android:layout_weight="1" android:layout_margin="5dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/stars" android:textColor="#FFC0CB" android:layout_weight="1" android:layout_margin="5dp"/>
+
+</LinearLayout>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/singer" android:textColor="#30D5C8" android:weight="1dp"/>
+
+</LinearLayout>
